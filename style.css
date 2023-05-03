@@ -1,0 +1,12 @@
+.board {
+	width: fit-content;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0em 0px;
+}
+.cell {
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+}
